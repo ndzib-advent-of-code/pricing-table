@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.card {
+    max-width: 220px;
+    padding: 32px 30px;
+}
+
+.title {
+    font-size: 24px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.price  {
+    font-weight: 900;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+.price_value {
+    font-size: 52px;
+}
+
+.desc {
+    font-size: 12px;
+}
+
+.full_desc {
+    padding: 20px 0;
+    line-height: 20px;
+}
+
+.btn {
+    padding: 13px 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.pink-bg {
+    background-color: rgba(255, 206, 255, 0.7);
+}
+.blue-bg {
+    background-color: rgba(193, 243, 239, 0.7);
+}
+
+.brown-bg {
+    background-color: rgba(250, 213, 135, 0.7);
+}
+
+.app {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-blend-mode: hard-light;
+
+    background-image: 
+    radial-gradient(circle farthest-side at 0 0,rgba(193, 243, 239, .2) 0%, transparent 100%),
+    radial-gradient(circle farthest-side at 100% 100%,rgba(193, 243, 239, .2) 0%, transparent 100%),
+
+
+    radial-gradient(circle closest-side at 30% 70%,rgba(247, 214, 235, .4) 0%, transparent 100%),
+    radial-gradient(circle closest-side at 35% 300px,rgba(193, 243, 239, .5) 0%, transparent 100%),
+    radial-gradient(circle closest-side at 70% 500px,rgba(247, 214, 235, .6) 0%, transparent 100%),
+    radial-gradient(circle closest-corner at 65% 100%,rgba(193, 243, 239, .4) 0%, transparent 100%);
+
+    
+}
+
+.pricing {
+    background-color: rgba(255, 255, 255, .75);
+    border-radius: 20px;
+    display: flex;
+    border: 16px solid white;
+}
+
+.label {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    padding: 4px 12px;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    background-color: rgb(250, 126, 167);
+    border-radius: 4px;
+    transform: rotateZ(5deg);
+    color: white;
+}
